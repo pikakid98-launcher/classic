@@ -11,3 +11,7 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 <h1>Extra</h1>
 I'm currently working on a simple auto updater.. But that's easier said that done.. It's extremely tedious.. So for now you'll have to manually update the launcher yourself.. Sorry
+
+<h1>Bug Tracker</h1>
+
+[A list of known bugs can be found here](https://github.com/pikakid98/pikakid98-launcher/knownbugs)

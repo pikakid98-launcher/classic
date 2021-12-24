@@ -6,3 +6,5 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 [Game Maker 8.1](https://archive.org/details/GameMaker81)
 
 [HTTP Downloader](https://github.com/erickutcher/httpdownloader/releases)
+
+[7-Zip (Command Line)](https://www.7-zip.org/)

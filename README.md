@@ -9,6 +9,14 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 [7-Zip (Alone (v21.0.7)](https://www.7-zip.org/a/7z2107-extra.7z)
 
+<h1>Planned Featured</h1>
+
+• Artwork per repository
+
+• A description for each repository menu
+
+• A logo (if possible) for every repository
+
 <h1>Bug Tracker</h1>
 
 [A list of known bugs can be found here](https://pikakid98.github.io/pikakid98-launcher/knownbugs)

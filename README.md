@@ -17,6 +17,8 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 • A logo (if possible) for every repository
 
+• Moving to a purely VBS updater instead of using HTTP Downloader that includes a splash screen that stops other actions while downloading
+
 <h1>Bug Tracker</h1>
 
 [A list of known bugs can be found here](https://pikakid98.github.io/pikakid98-launcher/knownbugs)

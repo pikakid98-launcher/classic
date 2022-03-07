@@ -19,6 +19,9 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 • A logo (if possible) for every repository
 
+• A menu popup for things like dev builds and an option to patch Game Maker Legacy games with gm8x_fix
+
+
 <h1>Bug Tracker</h1>
 
 [A list of known bugs can be found here](https://pikakid98.github.io/pikakid98-launcher/knownbugs)

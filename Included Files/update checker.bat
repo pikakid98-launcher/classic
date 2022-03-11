@@ -1,5 +1,17 @@
 @ECHO OFF
+;mode 14,1
+if exist "Git" ( rmdir /S /Q "Git" )
+
+if exist "%tmp%\PL-Temp" ( rmdir /S /Q "%tmp%\PL-Temp" )
+
+if exist "%userprofile%\Documents\Pikakid98 Launcher" (
+GOTO Main
+) else (
 mkdir "%userprofile%\Documents\Pikakid98 Launcher"
+GOTO Main
+)
+
+:Main
 mkdir "Git"
 
 mkdir "%tmp%\PL-Temp"

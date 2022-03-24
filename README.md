@@ -22,6 +22,12 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 • A menu popup for things like dev builds and an option to patch Game Maker Legacy games with gm8x_fix
 
 
-<h1>Bug Tracker</h1>
+# Bug Tracker
 
-[A list of known bugs can be found here](https://pikakid98.github.io/pikakid98-launcher/knownbugs)
+• Clicking the play button while fading starts the download/play (It can apparently be clicked accidentally)
+\
+• Clicking a menu option more than once will start fading the screen multiple times
+\
+• Clicking the “Play” button currently has no cooldown (This can possibly cause system slowdown if clicked too many times)
+\
+• Opening multiple download scripts MAY cause problems (though this hasn’t been verified.. Just don’t do it)

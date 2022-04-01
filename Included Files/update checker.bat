@@ -17,11 +17,11 @@ mkdir "Git"
 mkdir "%tmp%\PL-Temp"
 ECHO Set objWinHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
-ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/download/data/Git-05.7z" >> %tmp%\PL-Temp\git.vbs
+ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/download/data/Git-052.7z" >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.open "GET", URL, False >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.send "" >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
-ECHO SaveBinaryData "%tmp%\PL-Temp\Git-05.7z",objWinHttp.responseBody >> %tmp%\PL-Temp\git.vbs
+ECHO SaveBinaryData "%tmp%\PL-Temp\Git-052.7z",objWinHttp.responseBody >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
 ECHO Function SaveBinaryData(FileName, Data) >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
@@ -47,4 +47,4 @@ ECHO End Function >> %tmp%\PL-Temp\git.vbs
 
 START /wait "" "%tmp%\PL-Temp\git.vbs"
 
-7za.exe x "%tmp%\PL-Temp\Git-05.7z" -o"Git"
+7za.exe x "%tmp%\PL-Temp\Git-052.7z" -o"Git"

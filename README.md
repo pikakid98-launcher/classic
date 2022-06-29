@@ -7,7 +7,9 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 \
 [gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8) (> v0.5)
 \
-[7-Zip (Alone (v21.0.7)](https://www.7-zip.org/a/7z2107-extra.7z)
+[7-Zip (Alone (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z) (> 29/6/2022)
+\
+~~[7-Zip (Alone (v21.0.7)](https://www.7-zip.org/a/7z2107-extra.7z)~~ (< Dev 29/6/2022)
 \
 ~~[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8)~~ (< v0.5)
 

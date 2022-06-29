@@ -1,9 +1,23 @@
 @ECHO OFF
-;mode 14,1
 if exist "Git" ( rmdir /S /Q "Git" )
 
 if exist "%tmp%\PL-Temp" ( rmdir /S /Q "%tmp%\PL-Temp" )
 
+if exist "portable.txt" (
+GOTO Portable
+) else (
+GOTO Not Portable
+)
+
+:Portable
+if exist "Data" (
+GOTO Main
+) else (
+mkdir "Data"
+GOTO Main
+)
+
+:Not Portable
 if exist "%userprofile%\Documents\Pikakid98 Launcher" (
 GOTO Main
 ) else (
@@ -17,11 +31,11 @@ mkdir "Git"
 mkdir "%tmp%\PL-Temp"
 ECHO Set objWinHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
-ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/download/data/Git-052.7z" >> %tmp%\PL-Temp\git.vbs
+ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/download/data-dev/Git-dev_29-6-2022.7z" >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.open "GET", URL, False >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.send "" >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
-ECHO SaveBinaryData "%tmp%\PL-Temp\Git-052.7z",objWinHttp.responseBody >> %tmp%\PL-Temp\git.vbs
+ECHO SaveBinaryData "%tmp%\PL-Temp\Git-dev_29-6-2022.7z",objWinHttp.responseBody >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
 ECHO Function SaveBinaryData(FileName, Data) >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs

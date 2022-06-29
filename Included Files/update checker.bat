@@ -61,4 +61,4 @@ ECHO End Function >> %tmp%\PL-Temp\git.vbs
 
 START /wait "" "%tmp%\PL-Temp\git.vbs"
 
-7za.exe x "%tmp%\PL-Temp\Git-052.7z" -o"Git"
+7za.exe x "%tmp%\PL-Temp\Git-dev_29-6-2022.7z" -o"Git"

@@ -35,7 +35,7 @@ ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/downlo
 ECHO objWinHttp.open "GET", URL, False >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.send "" >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
-ECHO SaveBinaryData "%tmp%\PL-Temp\Git-dev_29-6-2022.7z",objWinHttp.responseBody >> %tmp%\PL-Temp\git.vbs
+ECHO SaveBinaryData "%tmp%\PL-Temp\Git-dev_12-7-2022.7z",objWinHttp.responseBody >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
 ECHO Function SaveBinaryData(FileName, Data) >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
@@ -61,4 +61,4 @@ ECHO End Function >> %tmp%\PL-Temp\git.vbs
 
 START /wait "" "%tmp%\PL-Temp\git.vbs"
 
-7za.exe x "%tmp%\PL-Temp\Git-dev_29-6-2022.7z" -o"Git"
+7za.exe x "%tmp%\PL-Temp\Git-dev_12-7-2022.7z" -o"Git"

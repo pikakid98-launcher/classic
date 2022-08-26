@@ -5,15 +5,20 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 [Game Maker 8.1](https://archive.org/details/GameMaker81)
 \
-[gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8) (> v0.5)
+[gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8)
 \
-[7-Zip (Alone Reduced) (v22.1)](https://www.7-zip.org/a/7zr.exe) (> v0.6)
+[7-Zip (Alone Reduced) (v22.1)](https://www.7-zip.org/a/7zr.exe)
+
+<details>
+<summary>Requirements For Older Versions</summary>
+
+[7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z) (< v0.6)
 \
-~~[7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z)~~ (v0.6)
+[7-Zip (Alone (v21.0.7)](https://www.7-zip.org/a/7z2107-extra.7z) (< v0.6)
 \
-~~[7-Zip (Alone (v21.0.7)](https://www.7-zip.org/a/7z2107-extra.7z)~~ (< v0.6)
-\
-~~[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8)~~ (< v0.5)
+[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8) (< v0.5)
+
+</details>
 
 # Planned Featured
 

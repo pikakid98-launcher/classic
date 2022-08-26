@@ -24,8 +24,6 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 # Planned Featured
 
-• Artwork per repository
-\
 • A description for each repository menu
 \
 • A logo (if possible) for every repository

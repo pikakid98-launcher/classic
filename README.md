@@ -12,27 +12,24 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 <details>
 <summary>Requirements For Older Versions</summary>
 
-[7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z) (< Dev 29/6/2022)
+[7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z) (Dev 29/6/2022 - Dev 18/7/2022)
 \
-[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8) (< v0.5)
+[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8) (v0.1 - v0.5)
 \
-[7-Zip (Alone (v21.07)](https://www.7-zip.org/a/7z2107-extra.7z) (< v0.2.1)
+[7-Zip (Alone (v21.07)](https://www.7-zip.org/a/7z2107-extra.7z) (v0.2.1 - v0.5.3)
 \
-[7-Zip (v21.03 Beta)](https://www.7-zip.org/a/7z2103.exe) (< v0.2.1)
+[7-Zip (v21.03 Beta)](https://www.7-zip.org/a/7z2103.exe) (v0.1 - v0.2)
 
 </details>
 
 # Planned Featured
 
-• A description for each repository menu
-\
-• A logo (if possible) for every repository
-\
-• A menu popup for things like dev builds and an option to patch Game Maker Legacy games with gm8x_fix
+- A description for each repository menu
+- A logo (if possible) for every repository
+- A menu popup for things like dev builds and an option to patch Game Maker Legacy games with gm8x_fix
 
 
 # Bug Tracker
 
-• Clicking the “Play” button currently has no cooldown (This can possibly cause system slowdown if clicked too many times)
-\
-• Opening multiple download scripts causes problems (Don’t do it)
+- Clicking the “Play” button currently has no cooldown (This can possibly cause system slowdown if clicked too many times)
+- Opening multiple download scripts causes problems (Don’t do it)

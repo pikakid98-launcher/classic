@@ -39,6 +39,4 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 
 # Bug Tracker
 
-• Clicking the “Play” button currently has no cooldown (This can possibly cause system slowdown if clicked too many times)
-\
-• Opening multiple download scripts MAY cause problems (though this hasn’t been verified.. Just don’t do it)
+• Opening multiple download scripts MAY cause problems (though this hasn’t been verified.. Just don’t do it) `This is a lot harder to do now thanks to the window minimizing. If you see this bug then you're doing it on purpose`

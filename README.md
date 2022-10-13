@@ -4,13 +4,17 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 # Building Requirements
 
 [Game Maker 8.1](https://archive.org/details/GameMaker81)
+\
+[gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8) `Only needed for patching the launcher's exe now`
+\
+[GM82 Core](https://github.com/GM82Project/gm82core)
+\
+[GM82 DX8](https://github.com/GM82Project/gm82dx8)
 
 <details>
 <summary>Requirements For Older Versions</summary>
 
 [7-Zip (Alone Reduced) (v22.1)](https://www.7-zip.org/a/7zr.exe) (Dev 30/9/2022) `Downloads Seperately As Of "Dev 30/9/2022"`
-\
-[gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8) (v0.5 - Dev 30/9/2022) `Downloads Seperately As Of "Dev 30/9/2022"`
 \
 [7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z) (Dev 29/6/2022 - Dev 18/7/2022)
 \

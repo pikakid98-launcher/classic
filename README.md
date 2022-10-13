@@ -4,16 +4,23 @@ My very own launcher for all of the stuff on my Github. It's currently very bare
 # Building Requirements
 
 [Game Maker 8.1](https://archive.org/details/GameMaker81)
+
+<details>
+<summary>Requirements For Older Versions</summary>
+
+[7-Zip (Alone Reduced) (v22.1)](https://www.7-zip.org/a/7zr.exe) (Dev 30/9/2022) `Downloads Seperately As Of "Dev 30/9/2022"`
 \
-[gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8) (> v0.5)
+[gm8x_fix (v0.5.8)](https://github.com/skyfloogle/gm8x_fix/releases/tag/v0.5.8) (v0.5 - Dev 30/9/2022) `Downloads Seperately As Of "Dev 30/9/2022"`
 \
-[7-Zip (Alone Reduced) (v22.1)](https://www.7-zip.org/a/7zr.exe) (> Dev 18/8/2022)
+[7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z) (Dev 29/6/2022 - Dev 18/7/2022)
 \
-~~[7-Zip (Alone) (v22.0)](https://www.7-zip.org/a/7z2107-extra.7z)~~ (> Dev 29/6/2022)
+[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8) (v0.1 - v0.5)
 \
-~~[7-Zip (Alone (v21.0.7)](https://www.7-zip.org/a/7z2107-extra.7z)~~ (< Dev 29/6/2022)
+[7-Zip (Alone (v21.07)](https://www.7-zip.org/a/7z2107-extra.7z) (v0.2.1 - v0.5.3)
 \
-~~[HTTP Downloader (v1.0.4.8)](https://github.com/erickutcher/httpdownloader/releases/v1.0.4.8)~~ (< v0.5)
+[7-Zip (v21.03 Beta)](https://www.7-zip.org/a/7z2103.exe) (v0.1 - v0.2)
+
+</details>
 
 # Planned Featured
 

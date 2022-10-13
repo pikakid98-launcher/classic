@@ -1,7 +1,10 @@
 @ECHO OFF
 
+mkdir "User"
 mkdir "Util"
 mkdir "%tmp%\PL-Temp\Util"
+
+timeout 2
 
 CLS
 
@@ -162,14 +165,6 @@ ECHO Extracting SilentCMD
 
 ::----------------------------------------------------------
 
-if exist "User\fti.txt" (
+:End
 rmdir "%tmp%\PL-Temp" /S /Q
-exit
-) else (
-GOTO fti
-)
-
-:fti
-rmdir "%tmp%\PL-Temp" /S /Q
-ECHO first time init >> "User\fti.txt"
 ECHO close >> "User\close.txt"

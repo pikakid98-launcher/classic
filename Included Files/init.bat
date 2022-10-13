@@ -3,6 +3,8 @@
 if exist "User\fti.txt" (
 GOTO Continue
 ) ELSE (
+mkdir "User"
+mkdir "Util"
 ECHO first time init >> "User\fti.txt"
 GOTO Continue
 )

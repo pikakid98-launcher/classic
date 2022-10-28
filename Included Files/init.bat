@@ -29,7 +29,7 @@ mkdir "Git"
 mkdir "%tmp%\PL-Temp"
 ECHO Set objWinHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs
-ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/download/data-dev/Git-dev_30-9-2022.7z" >> %tmp%\PL-Temp\git.vbs
+ECHO URL = "https://github.com/pikakid98/pikakid98-launcher-data/releases/download/data-dev/Git-dev_28-10-2022.7z" >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.open "GET", URL, False >> %tmp%\PL-Temp\git.vbs
 ECHO objWinHttp.send "" >> %tmp%\PL-Temp\git.vbs
 ECHO. >> %tmp%\PL-Temp\git.vbs

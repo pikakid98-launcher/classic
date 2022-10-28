@@ -8,6 +8,26 @@ timeout 2
 
 CLS
 
+if exist "User\Util\gm8x_fix.txt" (
+GOTO SilentCMD-check
+) else (
+del "Util\gm8x_fix.exe" /S /Q
+)
+
+::----------------------------------------------------------
+
+:SilentCMD-check
+
+if exist "User\Util\SilentCMD.txt" (
+GOTO Main
+) else (
+del "Util\SilentCMD.exe" /S /Q
+del "Util\SilentCMD.exe.config" /S /Q
+)
+
+
+:Main
+
 ECHO Set objWinHttp = CreateObject("WinHttp.WinHttpRequest.5.1") >> %tmp%\PL-Temp\7z.vbs
 ECHO. >> %tmp%\PL-Temp\7z.vbs
 ECHO URL = "https://www.7-zip.org/a/7zr.exe" >> %tmp%\PL-Temp\7z.vbs
